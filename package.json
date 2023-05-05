@@ -1,0 +1,27 @@
+{
+  "name": "node-rpsls",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "a rock paper scissors lizard spock game",
+  "main": "./lib/rpsls.js",
+  "scripts": {
+    "test": "node-rpsls rock"
+  },
+  "bin": {
+    "node-rps": "./bin/rps-cli.js",
+    "node-rpsls": "rpsls-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a03-EdwardLiujieZheng.git"
+  },
+  "author": "Liujie Zheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a03-EdwardLiujieZheng/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a03-EdwardLiujieZheng#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
