@@ -70,6 +70,6 @@ if(result == undefined) {
     `);
     process.exit(0);
 } else {
-  console.log(result);
+  console.log(JSON.stringify(result));
   process.exit(0);
 }
