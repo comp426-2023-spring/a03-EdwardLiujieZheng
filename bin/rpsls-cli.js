@@ -69,7 +69,6 @@ if(result == undefined) {
     - Spock VAPORIZES Rock
     - Rock CRUSHES Scissors
     `);
-  console.log("Please try 'rock', 'paper', 'scissors', 'lizard', or 'spock'.");
   console.log(`Usage: node-rpsls [SHOT]
   Play the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!
   
