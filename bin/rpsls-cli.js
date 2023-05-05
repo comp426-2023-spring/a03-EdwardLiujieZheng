@@ -57,7 +57,6 @@ if(args._.length == 0) {
 let result = rpsls(args._[0]);
 if(result == undefined) {
     console.log(`Rules for the Lizard-Spock Espansion of Rock Paper Scissors:
-
     - Scissors CUTS Paper
     - Paper COVERS Rock
     - Rock SMOOSHES Lizard
